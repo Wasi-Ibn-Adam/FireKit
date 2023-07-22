@@ -82,4 +82,4 @@ override fun setOptions(): AuthKitOptions {
 this is all no need for extra code, FireKit will handle from here
 ## Different Sign-In methods Guide
 
-[Facebook](https://github.com/Wasi-Ibn-Adam/FireKit/FACEBOOK.md)
+[Facebook](https://github.com/Wasi-Ibn-Adam/FireKit/blob/main/FACEBOOK.md)
