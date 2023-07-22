@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Test Kotlin</string>
+
+
+    <!--   Tags related to topic -->
+
+    <string name="tag_app_name">app_name</string>
+    <string name="tag_app_logo">app_logo</string>
+    <string name="tag_company_name">company_name</string>
+    <string name="tag_company_logo">company_logo</string>
+
+
+    <string name="tag_button_default">button_default</string>
+    <string name="tag_button_extra">button_extra</string>
+
+    <string name="tag_edittext_default">edittext_phone</string>
+    <string name="tag_edittext_extra">edittext_email</string>
+
+    <!--   Button/TextView text or EditText hints -->
+    <string name="log_in">Log-In</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register">Register</string>
+    <string name="new_user">"New User | "</string>
+    <string name="powered_by">Powered by</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="terms"><u>Terms &amp; Conditions</u></string>
+    <string name="policy"><u>Privacy Policy</u></string>
+    <string name="policy_terms">By continuing you accept our</string>
+
+</resources>

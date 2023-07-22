@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom|center"
+    android:orientation="vertical">
+
+    <include layout="@layout/container_app_logo" />
+
+    <com.lassanit.extras.customviews.PhoneText
+        android:id="@+id/authkit_id_phonetext"
+        android:layout_width="@dimen/authkit_edittext_width"
+        android:layout_height="@dimen/authkit_edittext_height"
+        android:layout_margin="20dp"
+        android:transitionName="@string/tag_edittext_extra" />
+
+    <Button
+        android:id="@+id/authkit_id_button_default"
+        android:layout_width="@dimen/authkit_button_width"
+        android:layout_height="@dimen/authkit_button_height"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Send Code"
+        android:textAllCaps="false"
+        android:transitionName="@string/tag_button_default" />
+
+    <com.raycoarana.codeinputview.CodeInputView
+        android:id="@+id/txt_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:animate_on_complete="true"
+        app:code_text_color="@color/optheme"
+        app:code_text_size="20sp"
+        app:error_color="#D32F2F"
+        app:input_type="numeric"
+        app:length_of_code="6"
+        app:on_complete_delay="50"
+        app:underline_color="#457ad1"
+        app:underline_selected_color="#9e1ace" />
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="57 Sec"
+        android:textColor="@color/optheme"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Resend Code?"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

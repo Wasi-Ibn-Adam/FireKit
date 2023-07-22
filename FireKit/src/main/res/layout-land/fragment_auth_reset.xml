@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <include layout="@layout/container_app_logo" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/authkit_id_editext_email"
+            android:layout_width="@dimen/authkit_edittext_width"
+            android:layout_height="@dimen/authkit_edittext_height"
+            android:autofillHints="emailAddress"
+            android:autofilledHighlight="@color/transparent"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="10dp"
+            android:drawableTintMode="src_in"
+            android:hint="@string/email"
+            android:importantForAutofill="yes"
+            android:inputType="textEmailAddress"
+            android:transitionName="@string/tag_edittext_default" />
+
+        <Button
+            android:id="@+id/authkit_id_button_default"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/send"
+            android:drawableTint="@color/optheme"
+            android:gravity="center"
+            android:padding="15dp"
+            android:tintMode="src_in"
+            android:transitionName="@string/tag_button_default" />
+    </LinearLayout>
+
+</LinearLayout>

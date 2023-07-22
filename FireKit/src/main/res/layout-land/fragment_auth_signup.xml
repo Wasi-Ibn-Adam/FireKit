@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <include layout="@layout/container_app_logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/authkit_id_editext_email"
+            android:layout_width="@dimen/authkit_edittext_width"
+            android:layout_height="@dimen/authkit_edittext_height"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="emailAddress"
+            android:autofilledHighlight="@color/transparent"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/optheme"
+            android:drawableTintMode="src_in"
+            android:hint="@string/email"
+            android:importantForAutofill="yes"
+            android:inputType="textEmailAddress"
+            android:transitionName="@string/tag_edittext_default" />
+
+        <EditText
+            android:id="@+id/authkit_id_editext_password"
+            android:layout_width="@dimen/authkit_edittext_width"
+            android:layout_height="@dimen/authkit_edittext_height"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="password"
+            android:drawableStart="@drawable/pass"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/optheme"
+            android:drawableTintMode="src_in"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:transitionName="@string/tag_edittext_extra" />
+
+        <EditText
+            android:id="@+id/authkit_id_editext_password_confirm"
+            android:layout_width="@dimen/authkit_edittext_width"
+            android:layout_height="@dimen/authkit_edittext_height"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="password"
+            android:drawableStart="@drawable/pass"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/optheme"
+            android:drawableTintMode="src_in"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/authkit_id_button_default"
+            android:layout_width="@dimen/authkit_button_width"
+            android:layout_height="@dimen/authkit_button_height"
+            android:layout_marginTop="10dp"
+            android:text="@string/register"
+            android:transitionName="@string/tag_button_default" />
+    </LinearLayout>
+
+</LinearLayout>
+

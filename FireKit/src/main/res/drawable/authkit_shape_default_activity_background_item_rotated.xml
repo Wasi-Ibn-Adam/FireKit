@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+    android:fromDegrees="45"
+    android:toDegrees="0" />

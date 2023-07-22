@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="optheme">#FFFFFFFF</color>
+    <color name="theme">#FF000000</color>
+    <color name="center">#BF969595</color>
+</resources>

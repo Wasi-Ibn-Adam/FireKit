@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="70dp"
+        android:end="6dp"
+        android:gravity="top"
+        android:top="0dp">
+        <layer-list>
+            <item
+                android:width="4dp"
+                android:height="4dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="0dp" />
+            <item
+                android:width="4dp"
+                android:height="4dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="12dp" />
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="24dp" />
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="36dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="48dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="60dp" />
+        </layer-list>
+
+    </item>
+    <item
+        android:width="70dp"
+        android:gravity="top"
+        android:top="12dp">
+        <layer-list>
+            <item
+                android:width="4dp"
+                android:height="4dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="0dp" />
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="12dp" />
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="24dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="36dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="48dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="60dp" />
+        </layer-list>
+
+    </item>
+    <item
+        android:width="70dp"
+        android:gravity="top"
+        android:top="24dp">
+        <layer-list>
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="0dp" />
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="12dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="24dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="36dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="48dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="60dp" />
+        </layer-list>
+
+    </item>
+    <item
+        android:width="70dp"
+        android:gravity="top"
+        android:top="36dp">
+        <layer-list>
+            <item
+                android:width="5dp"
+                android:height="5dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="0dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="12dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="24dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="36dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="48dp" />
+            <item
+                android:width="8dp"
+                android:height="8dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="60dp" />
+        </layer-list>
+
+    </item>
+    <item
+        android:width="70dp"
+        android:gravity="top"
+        android:top="48dp">
+        <layer-list>
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="0dp" />
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="12dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="24dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="36dp" />
+            <item
+                android:width="8dp"
+                android:height="8dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="48dp" />
+            <item
+                android:width="8dp"
+                android:height="8dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="60dp" />
+        </layer-list>
+
+    </item>
+    <item
+        android:width="70dp"
+        android:gravity="top"
+        android:top="60dp">
+        <layer-list>
+            <item
+                android:width="6dp"
+                android:height="6dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="0dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="12dp" />
+            <item
+                android:width="7dp"
+                android:height="7dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="24dp" />
+            <item
+                android:width="8dp"
+                android:height="8dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="36dp" />
+            <item
+                android:width="8dp"
+                android:height="8dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="48dp" />
+            <item
+                android:width="9dp"
+                android:height="9dp"
+                android:drawable="@drawable/authkit_shape_default_activity_background_item_polygon"
+                android:gravity="top|right"
+                android:right="60dp" />
+        </layer-list>
+
+    </item>
+
+</layer-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="authkit_id_app_logo" type="id" />
+    <item name="authkit_id_app_name" type="id" />
+
+    <item name="authkit_id_company_logo" type="id" />
+    <item name="authkit_id_company_name" type="id" />
+
+    <item name="authkit_id_phonetext" type="id" />
+
+    <item name="authkit_id_editext_email" type="id" />
+    <item name="authkit_id_editext_password" type="id" />
+    <item name="authkit_id_editext_password_confirm" type="id" />
+
+    <!-- Normally used for SignIn, SignUp, Reset, Send Code, etc-->
+    <item name="authkit_id_button_default" type="id" />
+    <item name="authkit_id_button_extra" type="id" />
+
+</resources>

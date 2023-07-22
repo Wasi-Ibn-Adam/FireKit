@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--   Left | Top (210:105 - 10) -->
+    <item
+        android:width="210dp"
+        android:height="210dp"
+        android:drawable="@drawable/authkit_shape_default_activity_background_item_rotated"
+        android:gravity="top|left"
+        android:left="-105dp"
+        android:top="-10dp" />
+    <!-- Center | Top (140: - 70) -->
+    <item
+        android:width="140dp"
+        android:height="140dp"
+        android:drawable="@drawable/authkit_shape_default_activity_background_item_rotated"
+        android:gravity="center|top"
+        android:top="-70dp" />
+    <!--  Right | Top (210: 105 - 10) -->
+    <item
+        android:width="210dp"
+        android:height="210dp"
+        android:drawable="@drawable/authkit_shape_default_activity_background_item_rotated"
+        android:gravity="right|top"
+        android:right="-105dp"
+        android:top="-10dp" />
+
+
+    <!--  Center (210)
+    <item
+        android:width="80dp"
+        android:height="80dp"
+        android:gravity="center"
+        android:top="100dp">
+        <rotate
+            android:drawable="@drawable/authkit_shape_default_activity_background_dotted_box"
+            android:fromDegrees="45"
+            android:toDegrees="0"/>
+    </item>
+-->
+
+
+    <!--   Left | Bottom (140: 70 - 7) -->
+    <item
+        android:width="140dp"
+        android:height="140dp"
+        android:bottom="-7dp"
+        android:drawable="@drawable/authkit_shape_default_activity_background_item_rotated"
+        android:gravity="bottom|left"
+        android:left="-77dp" />
+    <!-- Center | Bottom (210 - 105: 10 - ) -->
+    <item
+        android:width="210dp"
+        android:height="210dp"
+        android:drawable="@drawable/authkit_shape_default_activity_background_item_rotated"
+        android:bottom="-105dp"
+        android:gravity="center|bottom" />
+    <!--  Right | Bottom (140: 70 - 7 ) -->
+    <item
+        android:width="140dp"
+        android:height="140dp"
+        android:bottom="-7dp"
+        android:drawable="@drawable/authkit_shape_default_activity_background_item_rotated"
+        android:gravity="bottom|right"
+        android:right="-77dp" />
+
+
+</layer-list>

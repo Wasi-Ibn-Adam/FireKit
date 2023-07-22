@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/authkit_shape_edittext_stroke_width"
+        android:color="@color/authkit_edittext_border" />
+    <corners android:radius="@dimen/authkit_shape_edittext_radius" />
+    <padding
+        android:bottom="@dimen/authkit_shape_edittext_padding_bottom"
+        android:left="@dimen/authkit_shape_edittext_padding_left"
+        android:right="@dimen/authkit_shape_edittext_padding_right"
+        android:top="@dimen/authkit_shape_edittext_padding_top" />
+    <solid android:color="@color/authkit_edittext_solid" />
+</shape>

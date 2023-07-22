@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/authkit_shape_button_stroke_width"
+        android:color="@color/authkit_button_border" />
+    <solid android:color="@color/authkit_button_solid" />
+    <corners android:radius="@dimen/authkit_shape_button_radius" />
+</shape>
