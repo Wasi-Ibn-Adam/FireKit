@@ -33,7 +33,7 @@ Android Firebase Authentication Library
 To integrate FireKit into your Android app, Add the FireKit dependency to your project.
 
 ```gradle
-  implementation 'com.example.firekit:firekit:1.0.1'
+  implementation 'com.example.firekit:firekit:1.0.1-alpha'
 ```
 Also require a few more dependencies
 
