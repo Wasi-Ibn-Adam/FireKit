@@ -104,7 +104,7 @@ override fun setOptions(): AuthKitOptions {
 ## Different Sign-In methods Guide
 
 
-[Google](https://github.com/Wasi-Ibn-Adam/FireKit/GOOGLE.md)
+[Google](https://github.com/Wasi-Ibn-Adam/FireKit/blob/main/GOOGLE.md)
 
-[Facebook](https://github.com/Wasi-Ibn-Adam/FireKit/FACEBOOK.md)
+[Facebook](https://github.com/Wasi-Ibn-Adam/FireKit/blob/main/FACEBOOK.md)
 
